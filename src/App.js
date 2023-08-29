@@ -21,7 +21,7 @@ function App() {
     <Card><Contact/></Card> */}
     <div>
     <Routes>
-      <Route path = '/' element = {
+      <Route path = '/portfolio' element = {
       <div>
       <header className='intro'>Hi, I am <h className = 'name'>Ishan Jain</h></header>
       </div>
