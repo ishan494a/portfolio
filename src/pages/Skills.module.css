@@ -1,7 +1,6 @@
 .listframe{
  display: flex;
  justify-content: center;
-
 }
 .listframe > div{
   padding: 2rem;
