@@ -1,0 +1,25 @@
+.carditem{
+  padding: 30px 10px 30px 10px;
+  background-color: #1416592a;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.carditem:hover{
+  background-color: #20225b6e;
+}
+
+.projecttitle{
+  font-size: x-large;
+  padding-bottom: 20px;
+}
+
+.description{
+  padding-bottom: 20px;
+  color: darkgray;
+}
+
+a{
+  color: lightblue;
+}

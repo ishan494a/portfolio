@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+.txt {
+  font-family: 'Outfit', sans-serif;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-bottom: 350px;
+  padding-top: 120px;
+}

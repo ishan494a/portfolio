@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+.ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color: white;
+  font-family: 'Outfit', sans-serif;
+  position: fixed;
+  align-items: right;
+}
+
+.li {
+  float: right;
+}
+.li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #FFF;
+}
+
+.li a:hover {
+  background-color: rgba(0, 8, 91, 0.868);
+}
