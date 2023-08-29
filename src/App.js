@@ -13,17 +13,14 @@ function App() {
 
   return (
   <div>
+    <div className='topb'>
     <Navbar/>
-
-    {/* <Card><About/></Card>
-    <Card><Skills/></Card>
-    <Card><Projects/></Card>
-    <Card><Contact/></Card> */}
+    </div>
     <div>
     <Routes>
       <Route path = '/portfolio' element = {
       <div>
-      <header className='intro'>Hi, I am <h className = 'name'>Ishan Jain</h></header>
+      <header className='intro'>Hi, I am <span className = 'name'>Ishan Jain</span></header>
       </div>
       }/>
       <Route path = '/about' element={<Card><About/></Card>}/>

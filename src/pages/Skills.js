@@ -11,7 +11,6 @@ function Skills(){
         }}>
         <h1 style={{fontSize: "50px" }}>Skills</h1>
       </div>
-      <div>
         <div className={classes.listframe}>
          <div>
           {/* HTML */}
@@ -112,7 +111,6 @@ function Skills(){
       </div>
         </div>
       </div>
-    </div>
   );
 }
 export default Skills;

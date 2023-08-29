@@ -8,10 +8,12 @@ html {
   margin: auto;
 }
 
+.topb {
+}
+
 .intro{
-  padding-top: 250px;
-  padding-bottom: 420px;
-  font-size: 90px;
+  padding-top: 20rem;
+  font-size: 5rem;
   font-family: 'Outfit', sans-serif;
   color: rgba(255, 255, 255, 0.568);
   font-weight: bold;
