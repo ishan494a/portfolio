@@ -5,10 +5,15 @@ import Skills from './pages/Skills';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Card from './components/Card';
+import { useEffect } from 'react';
 
 import { Route, Routes } from 'react-router-dom';
 
 function App() {
+
+  useEffect(() => {
+    document.title = "Ishan Jain"
+  }, [])
 
 
   return (
