@@ -1,9 +1,12 @@
 .listframe{
  display: flex;
- align-items: center;
+ justify-content: center;
 
 }
 .listframe > div{
   padding: 2rem;
 
+}
+@media screen and (max-width: 800px) {
+  .listframe {display: inline; text-align: center;}
 }

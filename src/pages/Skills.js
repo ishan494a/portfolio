@@ -7,7 +7,7 @@ function Skills(){
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        padding: '30px'
+        padding: '10px'
         }}>
         <h1 style={{fontSize: "50px" }}>Skills</h1>
       </div>
