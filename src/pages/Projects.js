@@ -13,6 +13,11 @@ function Projects(){
         description = "Plan your trip with this AI"
         link = "https://github.com/ishan494a/TravelTrove"
         />
+        <ListItem
+        title = "Grade Point Average Calculator"
+        description = "Calculate your weighted average"
+        link = "https://github.com/ishan494a/gradecalulator"/>
+
     </div>
   );
 }
