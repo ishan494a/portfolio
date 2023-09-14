@@ -24,8 +24,8 @@ function App() {
     <div>
     <Routes>
       <Route path = '/portfolio' element = {
-      <div>
-      <header className='intro'>Hi, I am <span className = 'name'>Ishan Jain</span></header>
+      <div className = "myName">
+      <header className='intro'>Hi, I am <span className = 'name'> Ishan Jain</span></header>
       </div>
       }/>
       <Route path = '/about' element={<Card><About/></Card>}/>

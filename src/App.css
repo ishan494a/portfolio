@@ -1,18 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 
 html {
-  background: url(/Users/ishan/Desktop/portfolioweb/src/background_image.png);
+  background: url(/Users/ishan/Desktop/React/portfolioweb/src/background_image.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-color: #000236;
   margin: auto;
 }
 
-.topb {
+.myName {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  
 }
 
 .intro{
-  padding-top: 20rem;
   font-size: 5rem;
   font-family: 'Outfit', sans-serif;
   color: rgba(255, 255, 255, 0.429);
