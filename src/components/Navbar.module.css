@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 
-.topB {
-  
-}
-
 .ul {
   display: flex;
   flex-direction: row-reverse;
@@ -27,8 +23,31 @@
   background-color: rgba(0, 8, 91, 0.868);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px){
   .ul {
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap-reverse;
   }
+  
 }
+
+/* @media only screen and (max-width: 600px) {
+  .ul {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .li a {
+    display: inline-flex;
+    text-align: center;
+    padding: 2vh 100vh;
+    text-decoration: none;
+    color: #FFF;
+  }
+  .li a:hover {
+    background-color: rgba(0, 8, 91, 0.868);
+  }
+} */
