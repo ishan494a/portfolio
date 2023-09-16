@@ -7,5 +7,9 @@
 
 }
 @media screen and (max-width: 800px) {
-  .listframe {display: inline; text-align: center;}
+  .listframe {
+    display: flex; 
+    flex-wrap: wrap;
+    align-items: center;
+  }
 }
