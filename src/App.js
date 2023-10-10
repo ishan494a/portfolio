@@ -26,6 +26,13 @@ function App() {
       <Route path = '/portfolio' element = {
       <div className = "myName">
       <header className='intro'>Hi, I am <span className = 'name'> Ishan Jain</span></header>
+      {/* <div className = "loginform">
+        <form>
+        <label>Login as Ishan</label>
+        <input type= "password"></input>
+      </form>
+      </div> */}
+      
       </div>
       }/>
       <Route path = '/about' element={<Card><About/></Card>}/>

@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 
 html {
-  background: url(/Users/ishan/Desktop/React/portfolioweb/src/background_image.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-color: #000236;
@@ -32,3 +31,5 @@ body{
   font-family: 'Outfit', sans-serif;
   color: white;
 }
+
+
